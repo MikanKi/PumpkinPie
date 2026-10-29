@@ -41,21 +41,41 @@
 
 ## 動かし方
 
-```bash
+https://drive.google.com/file/d/1fpKR7aDEOsYhxBhdoRuOoG2_oKap1Awn/view?usp=share_link
+でzipファイルをダウンロードし、適当な場所で展開する
 
+ターミナルを開き、展開して得られるPumpkinPieというディレクトリへ移る。
+```bash
+$ cd PumpkinPie
 ```
+
+中身を確認する。
+```bash
+$ ls *
+```
+
+さらに、targetディレクトリへ移動する。
+```bash
+ % cd target
+```
+
+実行するためのコマンドは以下の通りである。
+```bash
+$ java -jar PumpkinPie.jar
+```
+ただし、実行にはJava21が必要である。
+
 
 ## 工夫した点・学んだこと
 
-- 〇〇（例：RGB分離とウェーブレット計算を別クラスに分け、テストしやすくした）
-- 〇〇（例：計算結果を既知の値と比較するテストで、実装の誤りを早期に見つけた）
+- RGB分離とウェーブレット計算を別クラスに分け、テストしやすくし、役割分担を容易にできた
+- 計算結果を既知の値と比較するテストで、実装の誤りを早期に見つけた
 
 ## チーム
 
-- 〇〇人（授業名：〇〇、〇〇年度）
-- 役割分担：〇〇
-
-## ライセンス
-
-授業課題のため〇〇
-A few notes on it:
+- 6人（授業名：プロジェクト演習、3年度春学期）
+- Project Manager：山口 大翔​
+- Substitute Project Manager：工藤 大夢​
+- Designer：山本 剛士、濱坂 颯太​
+- Tech Lead：戸田 翔伍、フェリシア アイヴィー​（私）
+- Quality Assurance：工藤 大夢​
